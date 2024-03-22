@@ -15,8 +15,8 @@ contract DeployOptimism is Script {
         vm.startBroadcast(0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80);
 
         // Substitua os argumentos abaixo conforme os parâmetros do seu construtor
-        string memory name = "OptimismToken";
-        string memory symbol = "OPT";
+        string memory name = "ELO";
+        string memory symbol = "ELO";
         address initialOwner = msg.sender; // Ou o endereço do proprietário desejado
 
         optimism = new Optimism(name, symbol, initialOwner);
